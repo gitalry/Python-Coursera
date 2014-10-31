@@ -1,0 +1,39 @@
+Initialize n to be 1000. Initialize numbers to be a list of numbers from 2 to n, but not including n. With results starting as the empty list, repeat the following as long as numbers contains any numbers.
+1. Add the first number in numbers to the end of results.
+2. Remove every number in numbers that is evenly divisible by (has no remainder when divided by) the number that you 
+had just added to results.
+
+How long is results? 
+-------------------------------------------
+n  = 1000
+numbers = range(2, n)
+results = []
+while numbers:
+    i = numbers[0]
+    results.append(i)
+    for number in numbers:
+        if number % i == 0:
+            numbers.remove(number)
+ 
+print numbers
+print len(results)
+-----------------------------------------------
+
+new code 
+
+n = 1000
+numbers = range(2, n)
+results = []
+ 
+while numbers != []:
+    results.append(numbers[0])
+    numbers = [n for n in numbers if n % numbers[0] != 0]
+ 
+print len(results)
+
+--------------------------------------------
+
+By: http://binyoga.blogspot.com/2013/05/a-simple-while-and-for-loop-for-list.html
+
+
+
