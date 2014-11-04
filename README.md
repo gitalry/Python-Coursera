@@ -1,7 +1,8 @@
 Python-Coursera
 ===============
 
-his class is nine weeks long. For most weeks, you will watch two sets of videos (part a and part b) and then complete one quiz for each set. These quizzes have a soft deadline of Tuesday/Thursday, respectively, and a hard deadline of Saturday. The main task for each week is to complete a mini-project that is due on Saturday. You will then be asked to assess your peer's mini-projects on the following Sunday-Wednesday.
+This class is nine weeks long. For most weeks, you will watch two sets of videos (part a and part b) and then complete one quiz for each set. These quizzes have a soft deadline of Tuesday/Thursday, respectively, and a hard deadline of Saturday. The main task for each week is to complete a mini-project that is due on Saturday. You will then be asked to assess your peer's mini-projects on the following Sunday-Wednesday.
+
 
 Week	Topics	Mini-project
 0	Expressions, variables and assignments	"We want... a shrubbery!"
